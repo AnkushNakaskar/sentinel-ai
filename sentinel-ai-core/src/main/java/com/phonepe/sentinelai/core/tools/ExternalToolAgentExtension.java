@@ -41,7 +41,7 @@ public abstract class ExternalToolAgentExtension<R, T, A extends Agent<R, T, A>>
                                                          AgentRunContext<R> metadata,
                                                          A agent,
                                                          ProcessingMode processingMode) {
-        return new ExtensionPromptSchema(List.of(), List.of());
+        return new ExtensionPromptSchema(List.of());
     }
 
     @Override
